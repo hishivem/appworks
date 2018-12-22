@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+	<head>
+
+        <!--Seo-->
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            <title>Appworks Technologies Group | Contact Us</title>
+            <meta name="keywords" content="contact us, reach, message, appworks, bigdrop, india, accelerator, organiq, software development, hunka, conego, web development, digital marketing, mobile development, gurgaon" />
+            <meta name="description" content="Reach out to us by phone or email and experience world class services for your business, from internal process management to showcasing your work to the world. +91-9111444012 | contact@appworks.co.in">
+            <meta name="author" content="Appworks Technologies Group">
+
+
+        <!--end seo-->
+
+		<meta name="generator" content="SilverStripe - http://silverstripe.org" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" type="text/css" media="screen" href="/static/themes/css/framework.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="/static/themes/css/styles.css" />
+		<script type="text/javascript" src="/static/themes/js/jquery.min.js"></script>
+		<script type="text/javascript" src="static/themes/js/jquery.center.js"></script>
+		<script type="text/javascript" src="static/themes/js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="static/themes/js/jquery.cycle.min.js"></script>
+		<script type="text/javascript" src="static/themes/js/main.js"></script>
+		
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC29jgc_r12bI29B7DZWHyQssjV5Xz1jEY"></script>
+		<script type='text/javascript'>
+		//Google maps
+		function initialize() {
+			var map;
+			var location = new google.maps.LatLng(28.48971,77.06228199999998);
+			var customMapStyle = [
+				{
+				featureType: "all",
+				elementType: "all",
+				stylers: [
+				  { lightness: 30 },
+				  { saturation: -100 }
+				]
+			  }
+			];
+
+			var mapOptions = {
+			  zoom: 15,
+			  center: location,
+			  disableDefaultUI: true,
+			  mapTypeId: google.maps.MapTypeId.ROADMAP,
+			  mapTypeControlOptions: {
+				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'basslineStyle']
+			  }
+			};
+
+			map = new google.maps.Map(document.getElementById("map"),mapOptions);
+
+			var styledMapOptions = {
+			  name: "custom"
+			}
+
+			var customMapType = new google.maps.StyledMapType(customMapStyle, styledMapOptions);
+
+			map.mapTypes.set('customStyle', customMapType);
+			map.setMapTypeId('customStyle');
+
+			var marker = new google.maps.Marker({
+			  draggable: false,
+			  raiseOnDrag: false,
+			  map: map,
+			  position: location
+			});		
+
+		}
+		</script>
+		
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	</head>
+	<body onload="initialize()">
+		
+		<div id="header" style="background-color: #ffffff;">
+			<div id="header-inner">
+				<a href="/"><img src="/static/assets/uploads/applogo.png" alt="" height="48px;" style="margin-top: 3em;"></a>
+				<div id="mobile-toggle">
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
+		</div>
+		<div id="outer">
+			<div id="inner">
+				 				<div id="navigation">
+					<div id="navigation-left">
+						<ul>
+								
+							<li><a href="/" title="Who We Are" class="link">Home</a></li>
+								
+							<!--<li><a href="../our-work/index.html" title="What We Do" class="link">What We Do</a></li>-->
+							
+						</ul>
+					</div>
+					
+					<div id="navigation-right">
+						<ul>
+							
+							<li><a href="#" title="Contact us" class="current">Contact</a></li>
+							
+						</ul>
+					</div>
+					
+				</div>
+				<div id="sub-navigation">
+					<h2>Contact Appworks</h2>
+					<p style="font-size: small;line-height: 20px;">We are always searching for clients interested <br>in new and innovative ways of doing things. <br>Whether you’re ready today or want to just <br>connect, we’d love to hear from you.<br><br>2nd Floor, Plot No. 336<br>Udyog Vihar, Phase IV<br>Gurgaon Haryana<br><br>Mobile: +91-9968070799, +91-9818167629<br>
+                        Phone: +91-9111444012<br>
+                        Email: contact@appworks.co.in </p>
+					<!--<p>Telephone +61 3 9225 5049<br> Facsimile +61 3 9806 1134<br><a href="mailto:info@daumandco.com">info@daumandco.com</a><br><a href="http://www.daumandco.com/">www.daumandco.com</a></p>-->
+				</div>
+				<div id="content">
+					<div id="wide">
+						<div id="map">
+						</div>
+					</div>
+				</div>
+								<div id="footer">
+					<p style="color: black !important;">Appworks &copy; 2017 | <a href="mailto:info@appworks.com" style="color: black !important;">info@appworks.com</a> <a href="/work-with-us/" style="color: black !important;"> |&nbsp Work With Us</a><a href="/invest-with-us/" style="color: black !important;">&nbsp |&nbspInvest With Us</a><span style="float: right;color: black !important;">Made with <span style="color: red;">&hearts;</span> by <a href="http://bigdrop.io/" style="color: black !important;" target="_blank">Big Drop</a></span></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
